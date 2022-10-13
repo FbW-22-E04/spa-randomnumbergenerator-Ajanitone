@@ -1,0 +1,17 @@
+.numbers div {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  margin: 12px;
+  text-align: center;
+  filter: blur(0.5px);
+  background-image: radial-gradient(#eee, #eee1c7, #decba4);
+}
+
+.numbers div:last-child {
+  filter: blur(0.5px);
+  background-image: radial-gradient(#eee, #fec392, #decba4);
+}
